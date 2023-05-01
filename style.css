@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #99DDCA;
+}
+
+.boletin {
+    background-color: #F6F6F6;
+    border: 0.1rem solid rgb(0, 0, 0);
+    width: 50vw;
+    height: 80vh;
+}
+
+.nombre{
+    display: flex;
+    justify-content: center;
+    
+}
+.nombre h1{
+    margin-top: 0.125rem;
+    font-size: 5rem;
+    font-family: 'Great Vibes', cursive;   
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.0625rem solid black;
+    border-bottom: 0.0625rem solid black;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+
+
+.title h1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    margin: 0.3125rem auto;
+}
+
+.contenido{
+    display: flex;
+}
+
+.contenido-mini1{
+   width: 50%;
+}
+
+
+.contenido-mini2{
+    width: 50%;
+   
+}
+
+
+
+.contenido-mini1 h3{
+    margin: 2rem;
+    border-top: 0.0625rem solid black;
+    border-bottom: 0.0625rem solid black;
+}
+
+.contenido-mini1 span{
+   display: flex;
+   justify-content: center; 
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.contenido-mini1 div{
+    display: flex;
+    margin: 2rem;
+
+}
+
+.contenido-mini1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.contenido-mini2 figure img{
+    margin-top: 1.5rem;
+    border: 0.0625rem solid black;
+    width: 38.1rem;
+    height: 25rem;
+}
+
+.contenido-mini2 figure figcaption{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
